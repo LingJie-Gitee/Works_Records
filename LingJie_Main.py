@@ -47,7 +47,6 @@ class InternetPython(Logging):
     def douban_top250():
         """
         internet_python: 吃国家饭的开端
-        :return: None
         """
         # 准备工作：对象 + 配置 + 容器
         urls_ = ['https://movie.douban.com/top250']   # 任意网址，爬取对象
@@ -71,8 +70,7 @@ class InternetPython(Logging):
     @staticmethod
     def roro_kingdom():
         """
-        internet_python: touch_fish
-        :return: None
+        internet_python: 吃国家饭的开端
         """
         # 准备工作：对象 + 配置 + 容器
         url_ = 'https://www.17roco.qq.com/'  # 对象
