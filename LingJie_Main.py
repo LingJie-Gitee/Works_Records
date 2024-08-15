@@ -439,7 +439,7 @@ class FinishJob(Logging):
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
         # 调用connect方法，并传入建立SSH的必要信息
-        ssh_client.connect(hostname='172.16.9.67', port=22, username='liangzhao', password='123456')
+        ssh_client.connect(hostname='172.16.0.123', port=22, username='lingjie', password='123456')
 
         # 返回3个对象，且无法直接读取，需要调用read()读取 + decode()解码
         stdin, stdout, stderr = ssh_client.exec_command(f'{cmd}')
